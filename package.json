@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/zonehttp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zone identifiers and http tokens for idempotent workflows.",
+  "bin": {
+    "zonehttp": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/zonehttp.git"
+  },
+  "homepage": "https://theworker02.github.io/zonehttp/",
+  "keywords": [
+    "zone",
+    "http",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
